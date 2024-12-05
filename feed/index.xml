@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>DevPath</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../index.html</link>
+	<description>Learning Management System</description>
+	<lastBuildDate>Sun, 13 Oct 2024 21:07:34 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.2</generator>
+
+<image>
+	<url>./../wp-content/uploads/2024/09/devPath_1-150x150.png</url>
+	<title>DevPath</title>
+	<link>./../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>6 projekata mašinskog obučavanja za automatizaciju mašinskog obučavanja</title>
+		<link>./../6-projekata-masinskog-obucavanja-za-automatizaciju-masinskog-obucavanja/index.html</link>
+					<comments>./../6-projekata-masinskog-obucavanja-za-automatizaciju-masinskog-obucavanja/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Nevena Milenkovic]]></dc:creator>
+		<pubDate>Sun, 13 Oct 2024 21:07:33 +0000</pubDate>
+				<category><![CDATA[Programski jezici]]></category>
+		<guid isPermaLink="false">./../index.html?p=254</guid>
+
+					<description><![CDATA[Algoritmi i modeli za mašinsko obučavanje neće uvek biti samo za stručnjake, zahvaljujući ovim najnovijim projektima. Snaga mašinskog]]></description>
+										<content:encoded><![CDATA[
+<p>Algoritmi i modeli za mašinsko obučavanje neće uvek biti samo za stručnjake, zahvaljujući ovim najnovijim projektima. Snaga mašinskog obučavanja ima svoju cenu. Kad jednom imate veštine, alatke, hardver i podatke, još uvek postoji složenost koja se tiče stvaranja i finog podešavanja modela za mašinsko obučavanje. Ali, ako je celi smisao mašinskog obučavanja da se automatizuju zadaci koji su ranije zahtevali čoveka na čelu, zar ne bi bilo moguće koristiti mašinsko obučavanje da bi se i iz samog mašinskog obučavanja izdvojio neki deo posla? Kratki odgovor je: kompetentno da. Zbirka tehnika, pod opštim nazivom „automatizovano mašinsko obučavanje“ ili AML (Automated Machine Learning), može smanjiti posao potreban za pripremu modela i njegovo postepeno poboljšavanje radi unapređenja njegove preciznosti.</p>
+
+
+
+<p>Automatizovano mašinsko obučavanje je još u ranoj fazi. Danas se primjenjuje kao niz različitih delova i odvojenih tehnologija, ali se brzo oblikuje za proizvodnju i stavlja na raspolaganje prosečnom poslovnom korisniku, umesto stručnjaku za mašinsko obučavanje.</p>
+
+
+
+<p>Ovde je šest vodećih automatskih alatki za mašinsko obučavanje.</p>
+
+
+
+<h3 class="wp-block-heading">Auto-sklearn i Auto-Weka</h3>
+
+
+
+<p>Dva primera automatskog mašinskog obučavanja već u upotrebi dolaze u obliku poboljšanja široko rasprostranjenog projekta Scikit-learn, paketa zajedničkih funkcija mašinskog obučavanja. Scikit-learn sadrži nekoliko različitih „procenjivačkih“funkcija ili metodologija za obučavanje na osnovu pruženih podataka. S obzirom na to da biranje pravog procenjivača može biti dosadno, projekat Auto-sklearn ima za cilj da uštedi nešto od tih tegoba. On sadrži jednu generičku funkciju procenjivača koja vrši sopstvenu analizu da bi se odredio najbolji algoritam i skup hiperparametara za određeni zadatak Scikit-learn-a.</p>
+
+
+
+<p>Auto-sklearn još uvek zahteva neke ručne intervencije. Krajnji korisnik mora da odredi ograničenja memorije i vremena koje proces podešavanja sme da koristi. Ali mnogo je lakše napraviti te izbore i pustiti mašinu da vremenom odlučuje o ostalom, nego se mučiti sa biranjem modela i hiperparametara.</p>
+
+
+
+<p>Za one koji koriste Javu i paket mašinskog obučavanja Weka , postoji jedan sličan projekat po imenu Auto-Weka. Auto-sklearn je u stvari inspirisan radom na izradi projekta Auto-Weka.</p>
+
+
+
+<h3 class="wp-block-heading">Prodigy</h3>
+
+
+
+<p>Jedan naporan aspekt kreiranja nadgledanih modela mašinskog obučavanja, na primer za obradu prirodnog jezika, je faza anotacije. Ljudsko biće mora ručno da kreira metapodatke za opis ili objašnjenje podataka koje model koristi.<br>Taj proces nije moguće potpuno automatizovati – bar za sada. Međutim, moguće je koristiti mašinsko obučavanje da bi se proces ubrzao i da bi bio manje neugodan.</p>
+
+
+
+<p>To je polazište alatke za anotacije pod nazivom Prodigy. Koristi se veb interfejs da bi proces obuke bio što brži i očigledniji za modele kojima su potrebni anotirani skupovi podataka. Anotacije koje već postoje u skupu podataka koriste se za upravljanje sledećih anotacija, čime se pomaže ubrzavanje procesa dodavanja anotacija tokom vremena.&nbsp;Prodigy snažno koristi Python kao okruženje za mašinsko obučavanje. On sadrži Python module za obučavanje modela, za njihovo testiranje, za istraživanje anotiranih skupova podataka i za upravljanje rezultata među projektima. Gotovi modeli mogu se izvoziti kao Python paketi i staviti direktno u proizvodnju pomoću bilo koje druge Python aplikacije.</p>
+
+
+
+<h3 class="wp-block-heading">H2o Driverless AI</h3>
+
+
+
+<p>Još jedna ponuda koja ima za cilj da mašinsko obučavanje bude pristupačnije za nestručnjake je Driverless AI iz firme H2o.ai. Driverless AI (veštačka inteligencija bez vozača) namenjen je poslovnim korisnicima kojima su poznati proizvodi kao što je Tableau, koji žele da steknu saznanja iz podataka, a da ne moraju da ulaze u detalje algoritama mašinskog obučavanja.</p>
+
+
+
+<p>Kao i Prodigy, Driverless AI koristi korisnički interfejs. Ovde korisnik izabere jednu ili više ciljnih promenljivih u skupu podataka za rešavanje, a sistem ponudi odgovor. Rezultati se predstavljaju kao interaktivni grafikoni, a objašnjeni su anotacijama na jednostavnom engleskom jeziku.</p>
+
+
+
+<p>Za razliku od Prodigyja, Driverless AI je vlasnički proizvod. Veliki deo steka u H2o.ai je otvorenog izvora, ali ova komponenta nije. To je jedan od znakova da će primarni metodi uvođenja mašinskog obučavanja za korisnike van tehničke struke biti komercijalni proizvodi, a ne stekovi otvorenog koda.</p>
+
+
+
+<h3 class="wp-block-heading">Googleovi AutoML i Vizier</h3>
+
+
+
+<p>U poslednjih nekoliko meseci, Google je ukazao na dva sopstvena – mada potpuno interna – projekta, kao primere kako kompanija sprovodi automatizovano mašinsko obučavanje.&nbsp;Prvi projekat „AutoML“ kreiran je za automatizovanje dizajna višeslojnih modela dubokog učenja.</p>
+
+
+
+<p>„Proces dizajniranja mreža često troši značajno vreme i eksperimentisanje stručnjaka sa značajnim iskustvom u mašinskom obučavanju“, kaže Google. Umesto da ljudi testiraju jedan mrežni dizajn dubokog obučavanja za drugim, AutoML za testiranje hiljada mogućih mreža koristi jedan algoritam obučavanja sa pojačavanjem. Povratne informacije iz svakog izvođenja algoritma mogu se koristiti za kreiranje novih arhitektura kandidata za sledeći prolaz. Sa dovoljnim brojem prolaza, mehanizam treninga može da utvrdi koji model konstrukcije donosi bolje rezultate.</p>
+
+
+
+<p>Još jedan Google projekat, po imenu Google Vizier opisan u radu objavljenom u avgustu, je „servis za optimizaciju crne kutije“. Na jednostavnijem jeziku, to je način da se pronađu najbolji radni parametri za sistem u slučajevima kada je teško odrediti korelaciju između parametara koje podnosite i rezultata koje dobijete. Prema tom izveštaju, Google je koristio Vizier da bi proučio koliko se njegovih vlastitih usluga može poboljšati podešavanjem ponašanja. Uključeni su primeri „podešavanje parametara korisničkog interfejsa, kao što su fontovi i veličine umanjenih prikaza, sheme boja i razmaka ili parametri za saobraćaj, kao što je relativna važnost različitih signala prilikom određivanja koje stavke će se pokazati korisniku.“</p>
+
+
+
+<p>Trenutno je Vizier samo za internu upotrebu Google-a. Ali nije nerazumno očekivati da će Google na kraju ponuditi produktivnu verziju usluge ili ga čak objaviti kao otvoreni izvorni projekat, na isti način kao što je TensorFlow razvijen interno, a zatim objavljen za ceo svet.</p>
+
+
+
+<p>Ovaj tekst „6 machine learning projects to automate machine learning“ prvobitno je objavio InfoWorld.</p>
+
+
+
+<p>Izvor: IT WORLD</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../6-projekata-masinskog-obucavanja-za-automatizaciju-masinskog-obucavanja/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>MongoDB ili MySQL: Kako izabrati</title>
+		<link>./../mongodb-ili-mysql-kako-izabrati/index.html</link>
+					<comments>./../mongodb-ili-mysql-kako-izabrati/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Nevena Milenkovic]]></dc:creator>
+		<pubDate>Sun, 13 Oct 2024 21:03:05 +0000</pubDate>
+				<category><![CDATA[Programski jezici]]></category>
+		<guid isPermaLink="false">./../index.html?p=251</guid>
+
+					<description><![CDATA[MongoDB i MySQL su vodeći NoSQL otvorenog koda i relaciona baza podataka. Šta je najbolje za vašu aplikaciju?]]></description>
+										<content:encoded><![CDATA[
+<p>MongoDB i MySQL su vodeći NoSQL otvorenog koda i relaciona baza podataka. Šta je najbolje za vašu aplikaciju?</p>
+
+
+
+<p>Tokom dot kom elspolozije u 1990-im, uobičajeni softverski paket za veb aplikacije bio je LAMP, koji je prvobitno značio: Linux (OS), Apache (veb server), MySQL (relaciona baza podataka) i PHP (serverski jezik za server). MySQL je bila najpoželjnija baza podataka pre svega zato što je bila besplatna, otvorenog koda i imala je dobre performanse čitanja, što se dobro uklapalo sa aplikacijama „Veb 2.0“ koje su dinamički generisale lokacije iz baze podataka.</p>
+
+
+
+<p>Kasnije je na red dospeo stek MEAN, što je značilo: MongoDB (baza podataka dokumenata), Express (veb server), AngularJS (radni okvir prvog plana) i Node.js (pozadinsko JavaScript izvršno okruženje). Stek MEAN bio je atraktivan, između ostalih razloga, zato što je jedini jezik koji ste morali da znate bio JavaScript. Takođe je tražio manje RAM-a od ekvivalentnog LAMP steka.</p>
+
+
+
+<p><strong>Šta je to MySQL / MariaDB?</strong></p>
+
+
+
+<p>Monty Widenius i David Axmark iz MySQL AB su prvobitno razvijali MySQL počevši od 1994. godine. „My“ u nazivu proizvoda odnosi se na Wideniusovu ćerku, a ne na englesku reč „moj“. MySQL je dizajniran tako da bude kompatibilan sa mSQL-om (tzv. Mini SQL-om), sa dodatkom sloja SQL upita i licence otvorenog koda (zapravo dvostruke licence, i vlasničke i GPL – opšte javne licence). Javna izdanja MySQL-a počela su da se objavljuju krajem 1996. i to se nastavlja svake godine ili dve. MySQL je trenutno najpopularnija relaciona baza podataka.</p>
+
+
+
+<p>Sun Microsystems kupio je MySQL AB 2008. (za milijardu dolara), a Oracle je kupio Sun 2010. godine. Widenius je odvojio MySQL 5.5 u MariaDB neposredno pre akvizicije Oracle, usled široke zabrinutosti o namerama Oracle-a za MySQL. MariaDB se jako trudi da održi kompatibilnost sa verzijama Oracle MySQL.</p>
+
+
+
+<p>MySQL je započeo kao relaciona baza podataka relativno niske klase u poređenju s sposobnijim komercijalnim relacionim bazama podataka, kao što su Oracle Database, IBM DB / 2 i Microsoft SQL Server, iako je bio dovoljan za dinamičke veb stranice. Tokom godina dodao je većinu funkcija koje očekujete od relacione baze podataka, uključujući transakcije, referentna ograničenja integriteta, snimljene procedure, pokazivače, indeksiranje i pretraživanje celog teksta, geografsko indeksiranje i pretraživanje, i grupisanje.</p>
+
+
+
+<p>MySQL se još uvek koristi u malim do srednjih instalacija, iako sada podržava funkcije „velike baze podataka“, poput postavki master/slave, upotrebe sa Memcached-om i horizontalnog cepanja podataka (engl sharding). Skaliranje MySQL-a na više podređenih poboljšava performanse čitanja, ali samo master prihvata zahteve za pisanje.</p>
+
+
+
+<p>AWS nudi MySQL uslugu u dve varijante, Amazon RDS i Amazon Aurora. Potonji ima mnogo veće performanse, može da obrađuje terabajte podataka, ima kraće vreme za ažuriranje replika i direktno se takmiči sa bazama podataka Oracle Database i SQL Server.</p>
+
+
+
+<p><strong>Šta je to MongoDB?</strong></p>
+
+
+
+<p>MongoDB je skalabilna baza podataka operativnih dokumenata koja je dostupna u verzijama otvorenog koda i u komercijalnim verzijama za preduzeća, a može da se izvršava u vlastitim prostorijama ili kao usluga upravljanja oblakom. Usluga upravljanja oblakom naziva se MongoDB Atlas.</p>
+
+
+
+<p>MongoDB je daleko najpopularnija od svih NoSQL baza podataka. Njen model dokumenata podataka pruža programerima veliku fleksibilnost, dok distribuirana arhitektura omogućava veliku skalabilnost. Kao rezultat toga, MongoDB se često bira za aplikacije koje moraju da upravljaju velikim količinama podataka, kojima koristi horizontalna skalabilnost i koje upravljaju strukturama podataka koje ne odgovaraju relacionom modelu.</p>
+
+
+
+<p>MongoDB je skladište koje se bazira na dokumentima, a koje nad sobom ima implementirano skladište zasnovano na grafovima. MongoDB zapravo ne skladišti JSON (JavaScript Object Notation): on čuva BSON (Binarni JSON), koji proširuje JSON reprezentaciju (stringove) na dodatne vrste kao što su int, long, date, floating point, decimal128 i geoprostorne koordinate.</p>
+
+
+
+<p>MongoDB može da generiše višemodalne grafikone, geoprostorne, B-stabla i indekse punog teksta na istom primerku podataka, tako što koristi tip podatka za generisanje ispravne vrste indeksa. MongoDB vam omogućava da kreirate indekse nad bilo kojim poljem dokumenta. MongoDB 4 ima transakcije sa više dokumenata, što znači da i dalje možete da imate ACID svojstva, čak i ako morate da normalizujete dizajn podataka.</p>
+
+
+
+<p>MongoDB podrazumevano koristi dinamičke šeme, za koje se ponekad kaže da su bez šeme (engl. schema-less). Dokumenti u jednoj kolekciji ne moraju imati isti skup polja, a tip podatka za polje može se razlikovati u različitim dokumentima unutar zbirke. Sa dinamičkim šemama, možete bilo kada da promenite strukture dokumenata.</p>
+
+
+
+<p>Međutim, dostupno je i upravljanje šemama. Počevši od verzije MongoDB 3.6, MongoDB podržava proveravanje JSON šeme, koje možete da uključite u svom izrazu za proveru ispravnosti.</p>
+
+
+
+<p><strong>LAMP i MEAN stekovi</strong></p>
+
+
+
+<p>Postoji mnogo varijacija LAMP i MEAN stekova. Umesto Linux OS-a, na primer, možete da izvršavate na Windowsu (WAMP) ili MacOS-u (MAMP). Umesto Apache veb servera u operativnom sistemu Windows, možete koristite IIS (WIMP). Umesto relacione baze podataka MySQL u LAMP steku, možete da koristite PostgreSQL ili SQL Server. Ako vam je potrebna globalna distribucija, možete da koristite CockroachDB ili Google Cloud Spanner. Umesto PHP jezika, možete da kodirate u jeziku Perl ili Python. Ako želite da pištete u jeziku Java ili C#, postoje posebne familije stekova koje možete da razmotrite.</p>
+
+
+
+<p>Umesto baze podataka dokumenata MongoDB u MEAN steku, možete da izvršavate Couchbase ili Azure Cosmos DB za bolju globalnu distribuciju. Umesto Ekpress-a, mogli biste koristiti bilo koji od desetak radnih okvira veb servera Node.js. Umesto radnog okvira prvog plana AngularJS, možete da koristite Angular 2 ili React.</p>
+
+
+
+<p><strong>Kako odabrati bazu podataka za svoju aplikaciju</strong></p>
+
+
+
+<p>Najvažnija pitanja koja treba postaviti prilikom biranja baze podataka su:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Koliko podataka očekujete da se čuva kada je aplikacija zrela?</li>
+
+
+
+<li>Koliko korisnika očekujete da istovremeno radi pri najvećem opterećenju?</li>
+
+
+
+<li>Koja je dostupnost, skalabilnost, latencija, propusnost i doslednost podataka potrebna vašoj aplikaciji?</li>
+
+
+
+<li>Koliko često će se menjati šeme vaših baza podataka?</li>
+
+
+
+<li>Koja je geografska distribucija vaše korisničke populacije?</li>
+
+
+
+<li>Koji je prirodni „oblik“ vaših podataka?</li>
+
+
+
+<li>Da li vašoj aplikaciji treba mrežna obrada transakcija (OLTP), analitički upiti (OLAP) ili oboje?</li>
+
+
+
+<li>Koliki odnos čitanja i pisanja očekujete u proizvodnji?</li>
+
+
+
+<li>Da li su vam potrebni geografski upiti i/ili upiti nad celim tekstom?</li>
+
+
+
+<li>Koji su vam omiljeni programski jezici?</li>
+
+
+
+<li>Imate li budžet? Ako je odgovor da, da li će pokrivati licence i ugovore o podršci?</li>
+</ul>
+
+
+
+<p>Nekoliko ovih pitanja može da suzi izbor baze podataka, ali imamo na raspolaganju mnogo više mogućnosti nego kada je formulisan LAMP stek. Ako pravite aplikaciju koja treba da bude dostupna 99,999 odsto vremena korisnicima širom sveta sa jakom doslednošću, samo će nekoliko baza podataka odgovarati. Ako će se vaša aplikacija koristiti u jednoj zemlji od 9:00 do 18:00. radnim danima i može da podnese krajnju konzistentnost, skoro svaka baza podataka će odgovarati, mada će neke biti lakše za programere i operatere, a neke će vam dati bolje performanse za najvažnije scenarije korišćenja.</p>
+
+
+
+<p>Mada su stekovi LAMP i MEAN nekad bili dobra rešenja za veb aplikacije, nijedan trenutno nije optimalan. Umesto da slepo usvojite jedan od njih, trebalo bi da razmislite o svojim slučajevima korišćenja i pronađite arhitekturu koja će odgovarati vašoj aplikaciji u doglednoj budućnosti.</p>
+
+
+
+<p><strong>SQL ili NoSQL?</strong></p>
+
+
+
+<p>Kada ćete za novu aplikaciju poželeti relacionu bazu podataka kao što je MySQL? Osim očigledne podrške za standardni SQL, relacione baze podataka same po sebi nameću tabelarnu šemu podataka sa doslednim snažnim tipom polja i pomažu vam da izbegnete dupliciranje podataka pod uslovom da koristite pogodnosti normalizacije.</p>
+
+
+
+<p>Ako treba da izbegnete nedostajuće podatke, možete prilikom kreiranja ili modifikacije tabela, da deklarišete polja kao NOT NULL. Ako su vam potrebni geografski upiti kako je definisano standardima za geoprostorni sadržaj Open Geospatial Consortium-a, većina relacionih baza podataka pruža snažnu implementaciju. A ako vam je potrebno pretraživanje celog teksta, većina relacionih baza podataka omogućava vam da u tekstualnim poljima definišete inverzne indekse, koji se u u MySQL-u zovu FULLTEXT indeksi.</p>
+
+
+
+<p>S druge strane, ako vam je potreban i povremeni dokument slobodnog oblika, MySQL i mnoge druge relacione baze podataka takođe podržavaju JSON podatke kako je definisano u dokumentu RFC 7159. A ako takođe želite da koristite XML dokumente i XPath ili XSLT, većina relacionih baza podataka ima tu sposobnost.</p>
+
+
+
+<p>Kada ćete poželeti bazu podataka dokumenata kao što je MongoDB? Ako vaš najčešći slučaj korišćenja mora da omogući podatke slobodnog oblika, polja koja menjaju tip iz dokumenta u dokument, šemu koja se vremenom menja ili ugnežđene dokumente, tada će NoSQL baza podataka zadovoljiti uslove. Pored toga, ako je vaša aplikacija napisana u JavaScript-u, tada će JSON format baza podataka dokumenata prirodno odgovarati.</p>
+
+
+
+<p>Izvor: InfoWorld</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../mongodb-ili-mysql-kako-izabrati/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>6 najboljih programskih jezika za razvoj VI</title>
+		<link>./../6-najboljih-programskih-jezika-za-razvoj-vi/index.html</link>
+					<comments>./../6-najboljih-programskih-jezika-za-razvoj-vi/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[Nevena Milenkovic]]></dc:creator>
+		<pubDate>Sun, 13 Oct 2024 21:00:56 +0000</pubDate>
+				<category><![CDATA[Programski jezici]]></category>
+		<guid isPermaLink="false">./../index.html?p=248</guid>
+
+					<description><![CDATA[Koji programski jezik treba da odaberete za projekat mašinskog obučavanja ili dubokog obučavanja? Ovo su vam najbolje opcije]]></description>
+										<content:encoded><![CDATA[
+<p>Koji programski jezik treba da odaberete za projekat mašinskog obučavanja ili dubokog obučavanja? Ovo su vam najbolje opcije</p>
+
+
+
+<p>Autor: Ian Pointer</p>
+
+
+
+<p>VI (veštačka inteligencija) otvara čitav svet mogućnosti za programere aplikacija. Korišćenjem mašinskog obučavanja ili dubokog obučavanja mogli biste da proizvedete mnogo bolje korisničke profile, personalizaciju i preporuke ili da uključite pametnije pretraživanje, govorni interfejs ili inteligentnu pomoć ili da poboljšate aplikaciju na neki drugi način. Možete čak i da pravite aplikacije koje vide, čuju i reaguju na situacije koje uopšte niste predvideli.</p>
+
+
+
+<p>Koji programski jezik treba da naučite da biste zaronili u dubine VI? Naravno, želite jezik sa mnogo dobrih biblioteka za mašinsko obučavanje i duboko obučavanje. Jezik bi takođe trebalo da ima dobre radne performanse, podršku dobrih alata, veliku zajednicu programera i zdrav ekosistem paketa za podršku. To je dugačak spisak zahteva, ali još uvek postoji puno dobrih opcija.</p>
+
+
+
+<p>Ovo je moj izbor šest najboljih programskih jezika za razvoj VI, sa dva posebno odlična. Neki od ovih jezika su u usponu, dok se drugi gube. Ima i nekih za koje treba da znate jedino ako vas zanimaju istorijske arhitekture i aplikacije dubinskog obučavanja. Da vidimo kako će se svi pokazati.</p>
+
+
+
+<p><strong>Python</strong></p>
+
+
+
+<p>Python je još uvek na prvom mestu. Šta bi drugo moglo da bude, zaista? Mada postoje sulude stvari oko Pythona, ako radite nešto sa VI, gotovo sigurno ćete u nekom trenutku koristiti Python. A neke neravnine su se malo izgladile.</p>
+
+
+
+<p>Kako krećemo u 2020. godinu, pitanje Python 2.x ili Python 3.x postaje suvišno jer gotovo svaka velika biblioteka podržava Python 3.x i obustavlja podršku za Python 2.x što pre može. Drugim rečima, konačno možete ozbiljno iskoristiti sve nove jezičke karakteristike.</p>
+
+
+
+<p>I dok su još uvek prisutne noćne more za pakovanje Pythona – gde je svako različito rešenje razbijeno na nešto drugačiji način – još uvek u 95% slučajeva možete da koristite Anacondu, i da ne brinete previše. Ipak, bilo bi lepo kada bi svet Pythona jednom zauvek rešio ovo dugogodišnje pitanje.</p>
+
+
+
+<p>Osim toga, za matematičke i statističke biblioteke koje su dostupne u Pythonu u drugim jezicima nema ravnih. NumPy je postao toliko sveprisutan da je gotovo standardan API za tenzorske operacije, a Pandas donosi moćne i fleksibilne R-ove okvire podataka u Python. Za obradu prirodnog jezika (NLP) na raspolaganju imate drevni NLTK i blistavo brz SpaCy. Za mašinsko obučavanje postoji žestoko testirani Scikit-learn. A kad je u pitanju duboko obučavanje, sve trenutne biblioteke (TensorFlow, PyTorch, Chainer, Apache MXNet, Theano, itd.) zapravo su najpre bile Python projekti.</p>
+
+
+
+<p>Ako čitate vrhunska istraživanja dubokog obučavanja o arXiv-u, tada ćete videti da većina studija koje nude izvorni kôd daju taj kôd u Python-u. Tu su i ostali delovi ekosistema Python. Mada je IPython postao Jupyter Notebook, a manje usmeren na Python, i dalje ćete videti da većina korisnika Jupyter Notebook-a, kao i većina notebook računara koji se dele na mreži, koriste Python. Što se tiče primene modela, pojava mikroservisnih arhitektura i tehnologija poput Seldon Core-a znači da je sada vrlo lako implementirati Python modele u proizvodnju.</p>
+
+
+
+<p>To se ne može poreći. Python je jezik koji prednjači u VI istraživanju, jezik u kojem ćete naći najviše okvira za mašinsko obučavanje i duboko obučavanje i jezik koji znaju skoro svi u VI svetu. Iz tih razloga, Python je prvi među programskim jezicima za VI, uprkos činjenici da vaš autor bar jednom dnevno psuje probleme sa belinama.</p>
+
+
+
+<p><strong>C ++</strong></p>
+
+
+
+<p>C ++ verovatno neće biti vaš prvi izbor kada razvijate VI aplikaciju, ali kada iz sistema morate da iscedite i poslednji delić performansi – scenario koji postaje sve češći kada duboko obučavanje stigne do ivice, a svoje modele morate da izvršavate na sistemima ograničenih resursa – vreme je da se opet vratite u zastrašujući svet pokazatelja.<br>Srećom, moderni C ++ može biti prijatan za pisanje (iskreno!). Možete da birate pristup. Možete da zaronite na dno steka, koristeći biblioteke poput Nvidijine CUDA i pišete svoj kôd koji se izvršava direktno na vašem grafičkom procesoru, ili možete da koristite TensorFlow ili PyTorch da biste pristupili fleksibilnim API-jima visokog nivoa. I PyTorch i TensorFlow omogućavaju vam da učitate modele generisane u Python-u (ili PyTorch-ovom TorchScript podskupu Python-a) i da ih pokrenete u izvršnom okruženju C ++, što vas približava osnovama za proizvodnju uz očuvanje fleksibilnosti u razvoju.</p>
+
+
+
+<p>Ukratko, C ++ postaje kritični deo skupa alata jer se VI aplikacije šire po svim uređajima, od najmanjeg ugrađenog sistema do ogromnih klastera. VI na ivici znači da više nije dovoljno biti samo precizan; morate biti dobri i brzi.</p>
+
+
+
+<p><strong>Java i drugi JVM jezici</strong></p>
+
+
+
+<p>Porodica JVM jezika (Java, Scala, Kotlin, Clojure, itd.) još uvek je odličan izbor za razvoj VI aplikacija. Imate bogatstvo biblioteka dostupnih za sve delove cevovoda, bilo da se radi o obradi prirodnog jezika (CoreNLP), tenzorskim operacijama (ND4J) ili potpunom skupu dubokog obučavanja (DL4J) ubrzanog u grafičkom procesoru. Pored toga, lako dobijate velike platforme podataka kao što su Apache Spark i Apache Hadoop.</p>
+
+
+
+<p>Java je jezik razumljiv u većini preduzeća, a sa novim jezičkim konstrukcijama dostupnim u Javi 8 i novijim verzijama, pisanje Java koda nije više ono mrsko iskustvo koje mnogi od nas pamte. Pisanje VI aplikacije u Javi može biti pomalo dosadno, ali posao može da se obavi – i možete da koristite svu vašu postojeću Java infrastrukturu za razvoj, uvođenje i praćenje.</p>
+
+
+
+<p><strong>JavaScript</strong></p>
+
+
+
+<p>Malo je verovatno da ćete naučiti JavaScript samo zato da biste pisali VI aplikacije, ali Google-ov TensorFlow.js stalno se poboljšava i nudi intrigantan način razmeštanja Keras i TensorFlow modela u vaš pretraživač ili preko Node.js koristeći WebGL za izračune ubrzane grafičkim procesorom. Međutim, nešto što stvarno nismo videli još od pokretanja TensorFlow.js, je veliki priliv JavaScript programera koji hrle u VI prostor. Mislim da to može biti zbog okolnog JavaScript ekosistema koji nema dubinu dostupnih biblioteka u poređenju sa jezicima kao što je Python. Dalje, na serverskoj strani, nema baš velike prednosti za implementaciju modela sa Node.js, za razliku od nekih Python opcija, tako da ćemo u bliskoj budućnosti možda videti da se VI aplikacije zasnovane na JavaScript-u uglavnom zadržavaju u pregledaču. Ali to i dalje daje obilje zanimljivih prilika za zabavu kao što je Emoji Scavenger Hunt.</p>
+
+
+
+<p><strong>Swift</strong></p>
+
+
+
+<p>U prošlogodišnjoj verziji ovog članka spomenuo sam da je Swift jezik na koji treba obratiti pažnju. Ove godine se probio u mojih najboljih šest. Šta se desilo? Swift For TensorFlow. Potpuno tipizirano vezivanje najnovijih i najboljih karakteristika TensorFlow-a bez zaostalih viškova, sa magijom koja vam omogućava da uvezete Python biblioteke kao da koristite Python.</p>
+
+
+
+<p>Tim za Fastai radi na Swift verziji njihove popularne biblioteke, a obećavaju nam mnogo budućih optimizacija za generisanje i izvršavanje modela, ubacivanjem mnogo pametnih tenzora u LLVM kompajler. Da li je proizvodnja već spremna? Nije sasvim, ali zaista ukazuje na sledeću generaciju razvijanja dubokog obučavanja, tako da bi svakako trebalo da istražite šta se događa sa Swiftom.</p>
+
+
+
+<p><strong>Jezik R</strong></p>
+
+
+
+<p>R je na dnu naše liste i kreće se naniže. R je jezik koji vole naučnici. Međutim, drugi programeri često smatraju da R pomalo zbunjuje zbog njegovog pristupa skoncentrisanog na okvir podataka. Ako imate namensku grupu programera za R, onda može imati smisla da se koristi integracija sa TensorFlow, Keras ili H2O za istraživanje, prototipove i eksperimentisanje, ali ne bih preporučio R za proizvodnju ili za razvoj od nule, zbog performansi i operativnih problema. Mada možete da pišete R kôd sa dobrim performansama koji se može postaviti na proizvodne servere, gotovo sigurno će biti lakše uzeti taj R prototip i ponovo ga kodirati u jeziku Java ili Python.</p>
+
+
+
+<p><strong>Ostale opcije VI programiranja</strong></p>
+
+
+
+<p>Naravno, Python, C ++, Java, JavaScript, Swift i R nisu jedini jezici dostupni za VI programiranje. Evo još dva programska jezika koja bi vam mogla biti zanimljiva ili korisna, mada ih ne bih smatrao glavnim prioritetima za učenje.</p>
+
+
+
+<p><strong>Lua</strong></p>
+
+
+
+<p>Pre nekoliko godina, jezik Lua se visoko kotirao u svetu veštačke inteligencije zbog radnog okvira Torch, jedne od najpopularnijih biblioteka za mašinsko obučavanje kako za potrebe istraživanja, tako i za proizvodnju. Ako zaronite u istoriju modela dubokog obučavanja, često ćete u starim GitHub skladištima naći bogate reference na Torch i obilje izvornog koda u jeziku Lua.</p>
+
+
+
+<p>U tu svrhu, možda bi bilo korisno poznavanje rada Torch API-ja, koji se previše ne razlikuje od PyTorch-ovog osnovnog API-ja. Međutim, ako, poput većine nas, zaista nemate potrebu da za svoje aplikacije vršite mnogo istorijskog istraživanja, verovatno ćete uspeti i bez lupanja glave oko malih dovijanja Lua.</p>
+
+
+
+<p><strong>Julia</strong></p>
+
+
+
+<p>Julia je programski jezik visokih performansi koji je fokusiran na numeričko računanje, što ga čini podesnim za svet VI koji je teško opterećen matematikom. Iako trenutno nije baš toliko popularan kao izborni jezik, omoti poput TensorFlow.jl i Mocha (pod velikim uticajem Caffe-a) pružaju dobru podršku za duboko obučavanje. Ako vam ne smeta relativno mali ekosistem, a želite da iskoristite njegovo fokusiranje na jednostavne i brze izračune visokih performansi, onda verovatno vredi pogledati jezik Julia.</p>
+
+
+
+<p>Izvor: InfoWorld</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../6-najboljih-programskih-jezika-za-razvoj-vi/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
