@@ -11,6 +11,10 @@ Statički prikaz platforme, dostupan na ovom repozitorijumu, obuhvata osnovne st
 - **Kontakt stranica** – omogućava korisnicima da se obrate administratorima.
 - **Pregled kurseva** – prikazuje dostupne kurseve.
 - **Blog** – sadrži edukativne i inspirativne članke.
+- **Politika Privatnosti** – informacije o prikupljanju i korišćenju korisničkih podataka.
+- **Prijavi se** – prijava na postojeći korisnički nalog.
+- **Registruj se** – registracija novog korisničkog naloga.
+  
 
 > Napomena: Statička verzija ne uključuje dinamičke funkcionalnosti, već prikazuje osnovni dizajn i strukturu sajta.
 
@@ -29,7 +33,7 @@ Dinamička verzija platforme ranije je bila hostovana na Hostinger-u i uključiv
 
 ## Korišćene tehnologije
 - **Frontend**: HTML, CSS, JavaScript
-- **Backend**: PHP (za povezivanje sa MySQL bazom podataka)
+- **Backend**: PHP (za povezivanje sa MySQL bazom podataka i izradu alata za fleš-kartice)
 - **Platforma**: WordPress sa dodacima:
   - **Elementor**: za kreiranje stranica
   - **Tutor LMS**: za upravljanje kursevima
@@ -73,7 +77,9 @@ Dinamička verzija platforme ranije je bila hostovana na Hostinger-u i uključiv
 AI asistent omogućava korisnicima da dobiju odgovore na pitanja, savete za organizaciju učenja i pomoć pri rešavanju zadataka.
 Evo kako to izgleda u praksi:
 
-![AI Asistent - Odgovori na pitanja](images/)
+![AI Asistent - Stranica](dokumentacija/devPath_AI_asistent_.png)
+
+![AI Asistent - Odgovori na pitanja](dokumentacija/devPath_AI_asistent_na_delu.gif)
 
 Asistent može pomoći korisnicima u razumevanju složenih pojmova i olakšati proces učenja.
 
@@ -83,9 +89,14 @@ Asistent može pomoći korisnicima u razumevanju složenih pojmova i olakšati p
 Flash kartice omogućavaju korisnicima da aktivno testiraju svoje znanje iz različitih oblasti. 
 Interakcija sa flash karticama:
 
-![Flash Kartice - Flip efekat](images/)
+![Flash Kartice - Stranica](dokumentacija/devPath_flashcards_.png)
 
-Ovaj "flip" efekat omogućava korisnicima da brzo pregledaju odgovor na kartici.
+Ulogovani korisnik može da pristupi svojim fleš-karticama i da manipuliše njima sa stranice.
+
+![Flash Kartice - Flip efekat i ostale funkcionalnosti](dokumentacija/devPath_flashcards_funkcije.gif)
+
+"Flip" efekat omogućava korisnicima da brzo pregledaju odgovor na kartici.
+Dugme izmeni i obrisi vrše direktnu manipulaciju fleš-karticama u bazi.
 
 ---
 
@@ -93,22 +104,24 @@ Ovaj "flip" efekat omogućava korisnicima da brzo pregledaju odgovor na kartici.
 Instruktori mogu lako dodavati nove kurseve, lekcije i kvizove.
 Proces dodavanja kursa na platformi:
 
-![Kreiranje kursa](images/)
+![Kreiranje kursa](dokumentacija/devPath_dodavanje_kurseva.png)
 
-Ovaj interfejs omogućava jednostavno kreiranje i upravljanje kursevima.
+WordPress interfejs je dovoljno intuitivan i omogućava jednostavno kreiranje i upravljanje kursevima.
 
 ---
 
 ## Upravljanje korisnicima
 Platforma omogućava instruktorima i polaznicima da upravljaju svojim profilima i pristupom sadržaju. Korisnički interfejs za ulogu polaznika:
 
-![Korisnički profil](dokumentacija/)
+![Korisnički profil](dokumentacija/devPath_dashboard_polaznik.png)
+
+Polaznici mogu pratiti napredak kroz kurseve i pristupiti svojim materijalima.
 
 Korisnički interfejs za ulogu instruktora:
 
 ![Korisnički profil](dokumentacija/devPath_dashboard.png)
 
-Polaznici mogu pratiti napredak kroz kurseve i pristupiti svojim materijalima.
+---
 
 Ovaj projekat je deo mog diplomskog rada: *Razvoj LMS platforme sa integrisanim AI asistentom i alatom za izradu flash kartica*. 
 
