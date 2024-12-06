@@ -102,11 +102,11 @@ Ovaj interfejs omogućava jednostavno kreiranje i upravljanje kursevima.
 ## Upravljanje korisnicima
 Platforma omogućava instruktorima i polaznicima da upravljaju svojim profilima i pristupom sadržaju. Korisnički interfejs za ulogu polaznika:
 
-![Korisnički profil](images/)
+![Korisnički profil](dokumentacija/)
 
 Korisnički interfejs za ulogu instruktora:
 
-![Korisnički profil](images/)
+![Korisnički profil](dokumentacija/devPath)
 
 Polaznici mogu pratiti napredak kroz kurseve i pristupiti svojim materijalima.
 
