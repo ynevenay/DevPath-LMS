@@ -106,7 +106,7 @@ Platforma omogućava instruktorima i polaznicima da upravljaju svojim profilima 
 
 Korisnički interfejs za ulogu instruktora:
 
-![Korisnički profil](dokumentacija/devPath)
+![Korisnički profil](dokumentacija/devPath dashboard.png)
 
 Polaznici mogu pratiti napredak kroz kurseve i pristupiti svojim materijalima.
 
